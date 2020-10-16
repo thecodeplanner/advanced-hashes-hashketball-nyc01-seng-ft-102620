@@ -244,8 +244,9 @@ def big_shoe_rebounds
         data.each do |player_data|
           player_data.each do |stats|
             if stats == :shoe 
+              binding.pry 
               biggest _shoe = stats.max 
-      binding.pry 
+      
   end
 end
 end
